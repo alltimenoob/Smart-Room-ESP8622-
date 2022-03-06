@@ -7,8 +7,7 @@
 #define WIFI_PASSWORD "36988211"
 #define DATABASE_URL "smart-room-9eac0-default-rtdb.firebaseio.com"
 
-#define USER_EMAIL "mihirchauhan756@gmail.com"
-#define USER_PASSWORD "VeryGood@123"
+
 
 Espalexa Alexa;
 
