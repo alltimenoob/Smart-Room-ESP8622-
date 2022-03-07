@@ -49,6 +49,11 @@ void setup() {
 void loop() {
   
   Alexa.loop();
+  
+  if(Firebase.getBool("Light));
+                      
+                   
+  Firebase.getBool("Fan");
 }
 
 void lightChanged(EspalexaDevice* device)
@@ -86,7 +91,7 @@ void lightChanged(EspalexaDevice* device)
 
 void fanChanged(EspalexaDevice* device)
 {
-  bool firestate = Firebase.getBool("Light");
+  bool firestate = Firebase.getBool("Fan");
   if(device != NULL)
   {
     bool devicestate = device->getValue();
