@@ -9,7 +9,7 @@
 
 
 
-Espalexa Alexa;
+Espalexa Alexa; // Alexa Object
 
 const int lightPin = 12;
 const int fanPin = 14;
